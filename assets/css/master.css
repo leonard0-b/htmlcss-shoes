@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 header {
@@ -14,7 +19,24 @@ header {
 i {
   text-decoration: none;
   padding-right: 10px;
-  color: orange;
+  color: #E56D23;
+  text-shadow: 2px 2px black;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  background: rgba(0,0,0,0.5);
+  line-height: 100px;
+}
+
+.title {
+  height: 100px;
+  width: 70%;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logos {
@@ -26,21 +48,32 @@ i {
   font-size: 30px;
 }
 
-.container1 {
+.container {
   height: 100vh;
   width: 100vw;
-  background-image: url(../img/jordan88.jpg);
   position: relative;
   background-size: cover;
 }
 
-.immagine1 {
+.pguno {
+  background-image: url(../img/GettyImages-1173556-e1528827216794.jpg);
+}
+
+.immagine {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.immagine1 > img {
+.immagine > img {
   width: 700px;
+}
+
+.pgdue {
+  background-image: url(../img/now_otd_0420MJ63Points_cr_b_1296x729.jpg);
+}
+
+.pgtre {
+  background-image: url(../img/image.jpg)
 }
