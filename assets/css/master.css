@@ -10,10 +10,7 @@ body {
 }
 
 header {
-  position: fixed;
-  height: 50px;
   width: 100vw;
-  z-index: 1;
 }
 
 i {
@@ -43,7 +40,7 @@ p {
   padding: 30px;
   color: black;
   z-index: 1;
-  position: absolute;
+  position: fixed;
   right: 50px;
   font-size: 30px;
 }
